@@ -18,8 +18,6 @@ echo "Вы выбрали папку Obsidian: $OBSIDIAN_VAULT_DIR"
 OBSIDIAN_SNIPPETS_DIR="$OBSIDIAN_VAULT_DIR/snippets"
 mkdir -p "$OBSIDIAN_SNIPPETS_DIR"
 
-cp obsidian.css "$OBSIDIAN_SNIPPETS_DIR/"
-
 echo "Хотите ли вы добавить или изменить файл export.py в /usr/lib/python3.12/site-packages/pywal? (y/n)"
 read answer
 
