@@ -1,0 +1,2 @@
+# Obwal
+Obsidian + pywal
