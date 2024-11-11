@@ -153,7 +153,11 @@ def color(colors, export_type, output_file=None):
     else:
         logging.warning("Template '%s' doesn't exist.", export_type)
 
-OBSIDIAN_SNIPPETS_DIR = os.path.expanduser("~/obsidian/via/.obsidian/snippets/")
+# CHANGE THIS                                                ||
+#                                                            ||
+#                                                           \\//
+#                                                            \/
+OBSIDIAN_SNIPPETS_DIR = os.path.expanduser("~/obsidian/CHANGE THIS/.obsidian/snippets/")
 
 def create_obsidian_css(colors, output_dir=CACHE_DIR):
     obsidian_css_path = os.path.join(OBSIDIAN_SNIPPETS_DIR, "obsidian.css")
