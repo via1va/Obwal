@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Введите путь к вашей папке Obsidian Vault (например, /home/user/.config/obsidian/MyVault):"
+echo "Введите путь к вашей папке .obsidian (например, /home/user/.config/obsidian/via/.obsidian/):"
 read OBSIDIAN_VAULT_DIR
 
 if [ -z "$OBSIDIAN_VAULT_DIR" ]; then
