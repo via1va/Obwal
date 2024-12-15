@@ -16,7 +16,7 @@ Simply run the command `wal -i your_image.jpg`, and **Obwal** will automatically
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/valeriy-w/Obwal/
+    git clone https://github.com/via1va/Obwal/
     cd Obwal
     ```
 
